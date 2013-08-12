@@ -1,9 +1,6 @@
-= RailsCasts Example Application
+This is a simple Rails exercise based on Ryan Bates' OmniAuth RailsCast.
 
-Run these commands to try it out.
+This was made using OmniAuth gem and Twitter login. (gem 'omniauth-twitter')
 
-  bundle
-  rake db:setup
-  rails s
-
-Requires Ruby 1.9.2 or later to run.
+User can sign in using their twitter account,
+and sign out.
