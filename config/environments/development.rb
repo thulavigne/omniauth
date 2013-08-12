@@ -1,4 +1,8 @@
 Blog::Application.configure do
+
+  ENV['TWITTER_KEY'] = "KPpNS6SG20hpcEJX3PeQ"
+  ENV['TWITTER_SECRET'] = "09wpQzqb2U6VHYUE1dEsjovUtAeFgVsUm14g0hQC8"
+
   # Settings specified here will take precedence over those in config/application.rb
 
   # In the development environment your application's code is reloaded on
